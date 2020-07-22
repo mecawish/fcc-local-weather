@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/font/weathericons-regular-webfont.svg"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Local Weather</title>
+  </head>
+  <body>
+    <div id="weather">
+      <h1>Current Local Weather</h1>
+      <h2 id="location"></h2>
+      <h3>
+        <span id="temp"></span> <i id="tempUnit" class="wi wi-fahrenheit"></i>
+      </h3>
+      <div><i id="icon" class="wi"></i></div>
+      <p id="summary"></p>
+      <a href="https://darksky.net/poweredby/" target="_blank"
+        >Powered by Dark Sky</a
+      >
+    </div>
+  </body>
+</html>
